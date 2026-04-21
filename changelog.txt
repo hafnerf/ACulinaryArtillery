@@ -17,8 +17,10 @@
 - Nutrition bug fixed; foods like pasta shouldn't have Extra Nutrition values of 1 (thanks to deathrat!) - DONE!!!
 - Nutrition values averaging out when bulk simmering fixed (thanks to deathrat!) - DONE!!!
 - Inedible items no longer included in "made with" text (thanks to deathrat!) - DONE!!!
-- Very aged wood variants added to bottle racks, meat hooks, and rolling pins
-- Chef hat + saddle makes Chef Saddle
+- Very aged wood variants added to bottle racks, meat hooks, and rolling pins - DONE!!!
+- Chef hat now has stats, can be put in display case - DONE!!!
+- Chef hat can be converted between styles - DONE!!!
+- Chef hat + saddle makes Chef Saddle - DONE!!!
 - Various items can be secured on an elk/boat
 - Rolling pin aligned properly onto meat rack
 - Spile fixed so it operates based on season, rather than month
