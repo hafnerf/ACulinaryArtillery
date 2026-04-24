@@ -338,9 +338,9 @@
   "block-spilemold-red-raw": "Raw red clay spile mold",
   "block-spilemold-fire-raw": "Raw fire clay spile mold",
 
-  "game:item-creature-trader-*-kitchenware-cold": "Kitchenware trader (cold)",
-  "game:item-creature-trader-*-kitchenware-temperate": "Kitchenware trader (temperate)",
-  "game:item-creature-trader-*-kitchenware-desert": "Kitchenware trader (desert)",
+  "item-creature-trader-*-kitchenware-cold": "Kitchenware trader (cold)",
+  "item-creature-trader-*-kitchenware-temperate": "Kitchenware trader (temperate)",
+  "item-creature-trader-*-kitchenware-desert": "Kitchenware trader (desert)",
   "game:tradingwindow-trader-male-kitchenware-*": "Local goods - {0} the kitchenware trader",
   "game:tradingwindow-trader-female-kitchenware-*": "Local goods - {0} the kitchenware trader",
 

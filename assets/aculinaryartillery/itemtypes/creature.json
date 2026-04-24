@@ -66,9 +66,9 @@
     "*": { "base": "game:entity/land/{type}" }
   },
   "texturesByType": {
-    "creature-trader-*-temperate": { "skin1": { "base": "game:entity/humanoid/villagerbody/skin/normal14" }, "hair": { "base": "entity/humanoid/seraphskinparts/hair/seagreen" }},
-    "creature-trader-*-cold": { "skin1": { "base": "game:entity/humanoid/villagerbody/skin/normal1" }, "hair": { "base": "entity/humanoid/seraphskinparts/hair/seagreen" }},
-    "creature-trader-*-desert": { "skin1": { "base": "game:entity/humanoid/villagerbody/skin/normal22" }, "hair": { "base": "entity/humanoid/seraphskinparts/hair/seagreen" }}
+    "creature-trader-*-temperate": { "skin1": { "base": "game:entity/humanoid/villagerbody/skin/normal14" }, "hair": { "base": "game:entity/humanoid/seraphskinparts/hair/seagreen" }},
+    "creature-trader-*-cold": { "skin1": { "base": "game:entity/humanoid/villagerbody/skin/normal1" }, "hair": { "base": "game:entity/humanoid/seraphskinparts/hair/seagreen" }},
+    "creature-trader-*-desert": { "skin1": { "base": "game:entity/humanoid/villagerbody/skin/normal22" }, "hair": { "base": "game:entity/humanoid/seraphskinparts/hair/seagreen" }}
   },
   "creativeinventory": { "general": ["*"], "items": ["*"], "creatures": ["*"] },
   "materialDensity": 600,

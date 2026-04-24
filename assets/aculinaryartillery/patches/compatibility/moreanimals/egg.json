@@ -19,7 +19,7 @@
         }]
     },
     "side": "server",
-    dependsOn: [ { "modid": "moreanimals" } ]
+    "dependsOn": [ { "modid": "moreanimals" } ],
     "file": "moreanimals:itemtypes/egg.json"
   },
   {
