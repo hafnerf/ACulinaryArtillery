@@ -243,6 +243,7 @@ namespace ACulinaryArtillery
         public override void OnHeldInteractStart(ItemSlot itemslot, EntityAgent byEntity, BlockSelection blockSel, EntitySelection entitySel, bool firstEvent, ref EnumHandHandling handHandling)
         {
             //if (api.Side == EnumAppSide.Client) return;
+            if (entitySel != null) return;
             if ((byEntity as EntityPlayer)?.Player is IPlayer plr && blockSel == null && entitySel == null && Variant["type"] == "corked")
             {
                 if (plr.InventoryManager?.OffhandHotbarSlot is ItemSlot offSlot && (offSlot.Empty || offSlot.Itemstack.Collectible.FirstCodePart() == "cork"))
