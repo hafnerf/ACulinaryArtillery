@@ -21,6 +21,9 @@
 - Chef hat now has stats, can be put in display case - DONE!!!
 - Chef hat can be converted between styles - DONE!!!
 - Chef hat + saddle makes Chef Saddle - DONE!!!
+- Clay bottle texture UV updated; THIS MAY BREAK CURRENTLY PLACED BOTTLES!!!!!!!!! BE CAREFUL!!!! - DONE!!!
+- Bark burn duration cut by 75% - DONE!!!
+
 - Various items can be secured on an elk/boat
 - Rolling pin aligned properly onto meat rack
 - Spile fixed so it operates based on season, rather than month
