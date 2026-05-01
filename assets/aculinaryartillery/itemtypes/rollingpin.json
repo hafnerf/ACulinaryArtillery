@@ -13,7 +13,7 @@
 	},
 	"attackRange": 2,
 	"attributes": {
-		"scrollrackable": true,
+		"scrollrackable": true, 
 		"shelvable": "Halves",
         "meathookable": true,
         "meatHookTransform": {
@@ -39,8 +39,16 @@
 		},
 		"onscrollrackTransform": {
 			"translation": { "x": -0.55, "y": -0.18, "z": 0.5 }
-		}
-	},
+		},
+        "attachableToEntity": {
+            "categoryCode": "pot",
+            "texturePrefixCode": "rollingpin-{type}",
+            "attachedShapeBySlotCode": {
+                "frontrightside": { "base": "aculinaryartillery:item/wearable/hooved/elk/rollingpinr" },
+                "frontleftside": { "base": "aculinaryartillery:item/wearable/hooved/elk/rollingpinl" }
+            }
+        }
+    },
 	"behaviors": [{ 
 		"name": "GroundStorable",
 		"properties": {

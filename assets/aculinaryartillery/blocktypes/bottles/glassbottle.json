@@ -38,7 +38,15 @@
 				"opaqueContentShapeLoc": "aculinaryartillery:shapes/block/bottle/contents",
 				"liquidContentShapeLoc": "aculinaryartillery:shapes/block/bottle/liquidcontents",
 				"liquidMaxYTranslate": 0.05
-			}
+			},
+            "attachableToEntity": {
+                "categoryCode": "gear",
+                "attachedShapeBySlotCode": {
+                    "gearleft": { "base": "aculinaryartillery:item/wearable/hooved/elk/bottleglass1" },
+                    "gearback": { "base": "aculinaryartillery:item/wearable/hooved/elk/bottleglass2" },
+                    "gearright": { "base": "aculinaryartillery:item/wearable/hooved/elk/bottleglass3" }
+                }
+            }
 		},
 		"*-fired": {
 			"canDrinkFrom": true,

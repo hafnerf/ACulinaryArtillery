@@ -42,6 +42,14 @@
 			},
 			"useFirepitModel": "Wide"
 		},
+        "attachableToEntity": {
+            "categoryCode": "pot",
+            "texturePrefixCode": "saucepan-{color}-fired",
+            "attachedShapeBySlotCode": {
+                "frontrightside": { "base": "aculinaryartillery:item/wearable/hooved/elk/saucepanr" },
+                "frontleftside": { "base": "aculinaryartillery:item/wearable/hooved/elk/saucepanl" }
+            }
+        },
 		"meathookable": true,
 		"meatHookTransform": {
 			"translation": { "x": 0.0, "y": -0.86, "z": 0.05 },

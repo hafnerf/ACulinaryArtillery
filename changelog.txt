@@ -25,7 +25,7 @@
 - Bark burn duration cut by 75% - DONE!!!
 - Bottles, mini-cauldrons, saucepans, and rolling pins can be secured on an elk - DONE!!!
 
-- Various items can be secured on an elk/boat
+
 - Rolling pin aligned properly onto meat rack
 - Spile fixed so it operates based on season, rather than month - DONE MAYBE???
 - Meat/bottle racks now indicate wood/metal type in item description

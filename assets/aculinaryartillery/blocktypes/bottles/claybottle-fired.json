@@ -37,8 +37,16 @@
 				"opaqueContentShapeLoc": "aculinaryartillery:shapes/block/bottle/contents",
 				"liquidContentShapeLoc": "aculinaryartillery:shapes/block/bottle/liquidcontents",
 				"liquidMaxYTranslate": 0.05
-			}
-		},
+			},
+            "attachableToEntity": {
+                "categoryCode": "gear",
+                "attachedShapeBySlotCode": {
+                    "gearleft": { "base": "aculinaryartillery:item/wearable/hooved/elk/bottle1" },
+                    "gearback": { "base": "aculinaryartillery:item/wearable/hooved/elk/bottle2" },
+                    "gearright": { "base": "aculinaryartillery:item/wearable/hooved/elk/bottle3" }
+                }
+            }
+        },
 		"*-fired": {
 			"canDrinkFrom": true,
 			"isTopOpened": true,
@@ -82,7 +90,7 @@
 		"x2": 0.65, "y2": 0.375, "z2": 0.65
 	},
 	"textures": {
-		"glass": { "base": "game:block/clay/hardened/{color}" },
+		"ceramic": { "base": "game:block/clay/hardened/{color}" },
 		"map": { "base": "game:item/utility/map" }
 	},
 	"resistance": 0.5,

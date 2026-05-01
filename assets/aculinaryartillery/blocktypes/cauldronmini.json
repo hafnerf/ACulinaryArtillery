@@ -3,6 +3,7 @@
 	"class": "BlockSaucepan",
 	"behaviorsByType": {
 		"*": [
+            { "name": "BoatableGenericTypedContainer" },
 			{ "name": "UnstableFalling" },
 			{ "name": "RightClickPickup" }
 		]
@@ -45,6 +46,14 @@
 				},
 				"useFirepitModel": "Wide"
 			},
+            "attachableToEntity": {
+                "categoryCode": "pot",
+                "texturePrefixCode": "cauldronmini-{metal}",
+                "attachedShapeBySlotCode": {
+                    "frontrightside": { "base": "aculinaryartillery:item/wearable/hooved/elk/minicauldronr" },
+                    "frontleftside": { "base": "aculinaryartillery:item/wearable/hooved/elk/minicauldronl" }
+                }
+            },
 			"meathookable": true,
 			"meatHookTransform": {
   				"translation": { "x": 0.0, "y": -0.725, "z": 0.26 },
