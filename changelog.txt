@@ -24,10 +24,9 @@
 - Clay bottle texture UV updated; THIS MAY BREAK CURRENTLY PLACED BOTTLES!!!!!!!!! BE CAREFUL!!!! - DONE!!!
 - Bark burn duration cut by 75% - DONE!!!
 - Bottles, mini-cauldrons, saucepans, and rolling pins can be secured on an elk - DONE!!!
-
-
-- Rolling pin aligned properly onto meat rack
 - Spile fixed so it operates based on season, rather than month - DONE MAYBE???
+- Rolling pin removed from meat rack, Meat Rack will require special shapes later - DONE!!!
+
 - Meat/bottle racks now indicate wood/metal type in item description
 - Spiles no longer float in water (check other blocks)
 
