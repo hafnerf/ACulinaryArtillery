@@ -69,7 +69,8 @@ namespace ACulinaryArtillery
             int pastDay = Api.World.Calendar.DayOfYear - (int)((Api.World.Calendar.TotalHours - pastTime) / Api.World.Calendar.HoursPerDay);
             if (pastDay < 0) pastDay += Api.World.Calendar.DaysPerYear;
 
-            return (pastDay / Api.World.Calendar.DaysPerMonth) + 1;
+            int month = (pastDay / Api.World.Calendar.DaysPerMonth);
+            return (Api.World.Calendar.GetHemisphere(Pos) == EnumHemisphere.North ? month : (month + 6) % 12) + 1;
         }
 
         public BlockPos posForward(int offset, int height, int otheraxis)
