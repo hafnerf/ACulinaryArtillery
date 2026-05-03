@@ -31,6 +31,7 @@
           ]
       }
   },
+  "materialDensity": 100,
   "textures": {"seraph": { "base": "game:block/transparent" }, "c-hat": { "base": "entity/humanoid/seraphclothes/head/l33that" } },
   "creativeinventory": { "general": ["*"], "items": ["*"], "clothing": ["*"], "aculinaryartillery": ["*"] },
   "renderAlphaTest": 0.25,
@@ -60,9 +61,9 @@
   },
   "groundTransformByType": {
     "*": {
-      "translation": { "x": 0.05, "y": -0.3, "z": 0 },
+      "translation": { "x": 0.0, "y": -0.9, "z": 0 },
       "rotation": { "x": 0, "y": 0, "z": 0 },
-      "scale": 2
+      "scale": 3.5
     }
   }
 }

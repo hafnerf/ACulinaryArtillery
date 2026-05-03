@@ -44,7 +44,17 @@
             }
         }
     },
-	"behaviors": [{ 
+    "materialDensityByType": {
+      "*-copper": 8960,
+      "*-tinbronze": 7600,
+      "*-bismuthbronze": 7900,
+      "*-blackbronze": 9000,
+      "*-iron": 7870,
+      "*-meteoriciron": 7800,
+      "*-steel": 7820,
+      "*": 300
+    },
+    "behaviors": [{ 
 		"name": "GroundStorable",
 		"properties": {
 			"layout": "Halves",

@@ -42,6 +42,15 @@
 		"*-south": { "base": "block/spile", "rotateY": 180 },
 		"*-west": { "base": "block/spile", "rotateY": 90 }
 	},
+    "materialDensityByType": {
+      "*-copper": 8960,
+      "*-brass": 8500,
+      "*-tinbronze": 7600,
+      "*-bismuthbronze": 7900,
+      "*-blackbronze": 9000,
+      "*-titanium": 4510,
+      "*-steel": 7820
+    },
 	"blockmaterial": "Metal",
 	"replaceable": 500,
 	"lightAbsorption": 0,
@@ -90,5 +99,4 @@
 		"origin": { "x": 0.5, "y": 0.3, "z": 0 },
 		"scale": 2
 	},
-	"materialDensity": 600
 }

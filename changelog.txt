@@ -5,30 +5,36 @@
 - Bottle racks no longer have weird shadows when multiple are placed
 - Bricklayers integration?
 
-~1.21_v2.0.0-dev.12~
-- Mechanized Mixer & Cutting Board partially added; no they don't work yet stop asking me
-- Kitchenware trader spawn tweaked to be slightly more rare - DONE!!!
-- Kitchenware trader fixed so his food can't be stolen - DONE!!!
-- Kitchenware trader buy list updated for bottles & new blocks (thank you Whiskey Sunshine!) - DONE!!!
-- Fixed: Kneading and simmering recipes in the handbook could show duplicate outputs (thank you pizza2004!) - DONE!!!
-- Bismuth bronze support for metal objects (thanks to ividyon!) - DONE!!!
-- Adjust cauldron recycle result & make small cauldrons recycleable (thanks to ividyon!) - DONE!!!
-- Latin American Spanish translation added (thanks to Gloo_57) - DONE!!!
-- Nutrition bug fixed; foods like pasta shouldn't have Extra Nutrition values of 1 (thanks to deathrat!) - DONE!!!
-- Nutrition values averaging out when bulk simmering fixed (thanks to deathrat!) - DONE!!!
-- Inedible items no longer included in "made with" text (thanks to deathrat!) - DONE!!!
-- Very aged wood variants added to bottle racks, meat hooks, and rolling pins - DONE!!!
-- Chef hat now has stats, can be put in display case - DONE!!!
-- Chef hat can be converted between styles - DONE!!!
-- Chef hat + saddle makes Chef Saddle - DONE!!!
-- Clay bottle texture UV updated; THIS MAY BREAK CURRENTLY PLACED BOTTLES!!!!!!!!! BE CAREFUL!!!! - DONE!!!
-- Bark burn duration cut by 75% - DONE!!!
-- Bottles, mini-cauldrons, saucepans, and rolling pins can be secured on an elk - DONE!!!
-- Spile fixed so it operates based on season, rather than month - DONE MAYBE???
-- Rolling pin removed from meat rack, Meat Rack will require special shapes later - DONE!!!
 
+
+~1.21_v2.0.0-dev.13~
+- Mechanized Mixer & Cutting Board partially added; no they don't work yet stop asking me
 - Meat/bottle racks now indicate wood/metal type in item description
-- Spiles no longer float in water (check other blocks)
+- Dedicated cork/uncork button?
+- Meat racks can have dedicated shapes like elks
+
+
+~1.21_v2.0.0-dev.12~
+- Kitchenware trader spawn tweaked to be slightly more rare
+- Kitchenware trader fixed so his food can't be stolen
+- Kitchenware trader buy list updated for bottles & new blocks (thank you Whiskey Sunshine!)
+- Fixed: Kneading and simmering recipes in the handbook could show duplicate outputs (thank you pizza2004!)
+- Bismuth bronze support for metal objects (thanks to ividyon!)
+- Adjust cauldron recycle result & make small cauldrons recycleable (thanks to ividyon!)
+- Latin American Spanish translation added (thanks to Gloo_57)
+- Nutrition bug fixed; foods like pasta shouldn't have Extra Nutrition values of 1 (thanks to deathrat!)
+- Nutrition values averaging out when bulk simmering fixed (thanks to deathrat!)
+- Inedible items no longer included in "made with" text (thanks to deathrat!)
+- Very aged wood variants added to bottle racks, meat hooks, and rolling pins
+- Chef hat now has stats, can be put in display case
+- Chef hat can be converted between styles
+- Chef hat + saddle makes Chef Saddle
+- Clay bottle texture UV updated; THIS MAY BREAK CURRENTLY PLACED BOTTLES!!!!!!!!! BE CAREFUL!!!!
+- Bark burn duration cut by 75%
+- Bottles, mini-cauldrons, saucepans, and rolling pins can be secured on an elk
+- Spile fixed so it operates based on season, rather than month
+- Rolling pin removed from meat rack, Meat Rack will require special shapes later
+- materialDensity reviewed for all items; should float in water/lava more realistically
 
 ~1.21_v2.0.0-dev.11~
 - Kitchenware trader spawn fixed and moved from game patches to mod domain folder (thanks to NiclAss himself!)
@@ -150,12 +156,12 @@ Pursec fix:
 - Quick patch to fix null-ref crashing when desired rendered shape has a disabled face (such as muffin fruit overlays)
 
 ~1.19_v1.2.0~
-- Saucepans can fit on shelves - DONE!!!
-- Meathook transforms re-fixed - DONE!!!
-- Cauldrons, saucepans, mixing bowls, bottle racks, meat hooks work with CarryOn - DONE!!!
-- Wildcraft Trees compatibility updated - DONE!!!
+- Saucepans can fit on shelves
+- Meathook transforms re-fixed
+- Cauldrons, saucepans, mixing bowls, bottle racks, meat hooks work with CarryOn
+- Wildcraft Trees compatibility updated
 
-- Add VS Code support and enable cross-platform development (thanks to matthewkaney) - DONE!!!
+- Add VS Code support and enable cross-platform development (thanks to matthewkaney)
 
 Pursec fixes: 
 - Handbook recipes at last: automatic handbook recipe population from loaded recipes
@@ -258,10 +264,10 @@ Pursec fixes:
 - Ukranian translation added (thanks to _epic_fish_!)
 
 ~1.17_v1.0.12~ pre
-- Eggs give yolks properly when cracked in buckets or BlockEntityGroundStorage items (thanks to MAGGen-hub) - DONE!!!
-- You can now Shift+Left Click saucepans and cauldrons into the firepit (thanks to DoctorVanGogh) - DONE!!! 
-- Bottle racks now display liquid info for clay bottles (thanks to DoctorVanGogh) - DONE!!!
-- Shelves display info for ALL liquid containers, not just bottles (thanks to DoctorVanGogh) - DONE!!!
+- Eggs give yolks properly when cracked in buckets or BlockEntityGroundStorage items (thanks to MAGGen-hub)
+- You can now Shift+Left Click saucepans and cauldrons into the firepit (thanks to DoctorVanGogh) 
+- Bottle racks now display liquid info for clay bottles (thanks to DoctorVanGogh)
+- Shelves display info for ALL liquid containers, not just bottles (thanks to DoctorVanGogh)
 
 ~1.17_v1.0.11~
 - Using multiple bottles/buckets on the saucepan/cauldron uses correct liquid values

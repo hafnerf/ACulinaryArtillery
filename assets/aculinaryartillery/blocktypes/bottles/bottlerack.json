@@ -13,6 +13,7 @@
         ]
       }
     },
+    "materialDensity": 700,
     "behaviors": [ { "name": "HorizontalOrientable" } ],
     "variantgroups": [
         {

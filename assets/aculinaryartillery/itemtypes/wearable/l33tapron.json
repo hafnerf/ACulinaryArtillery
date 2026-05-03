@@ -25,11 +25,12 @@
       ]
     }
   },
+  "materialDensity": 100,
   "creativeinventory": { "general": ["*"], "items": ["*"], "clothing": ["*"], "aculinaryartillery": ["*"]  },
   "renderAlphaTest": 0.25,
   "tpHandTransform": {
-    "translation": { "x": -0.78, "y": -0.93, "z": -1.23 },
-    "rotation": { "x": 35, "y": -90, "z": 49 },
+    "translation": { "x": -0.75, "y": -1.3, "z": -0.8 },
+    "rotation": { "x": -1, "y": 0, "z": 0 },
     "scale": 0.67
   },
   "guiTransformByType": {
@@ -41,9 +42,9 @@
     }
   },
   "groundTransform": {
-    "translation": { "x": 0.05, "y": -0.21, "z": 0 },
-    "rotation": { "x": 0, "y": 0, "z": 0 },
+    "translation": { "x": 0, "y": -0.075, "z": 0 },
+    "rotation": { "x": 0, "y": 0, "z": -55 },
     "origin": { "x": 0.5, "y": 0.5, "z": 0.5299 },
-    "scale": 2.72
+    "scale": 4
   }
 }

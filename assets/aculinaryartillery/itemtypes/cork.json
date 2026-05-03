@@ -17,6 +17,7 @@
             ]
         }
 	},
+    "materialDensity": 100,
 	"shape": { "base": "item/cork" },
 	"texture": { "base": "game:item/utility/map" },
 	"creativeinventory": { "general": ["*"], "items": ["*"], "aculinaryartillery": ["*"], },

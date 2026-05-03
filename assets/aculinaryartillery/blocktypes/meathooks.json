@@ -43,6 +43,7 @@
             ]
         }
 	},
+    "materialDensity": 1050,
 	"drawtype": "json",
 	"blockmaterial": "Wood",
 	"replaceable": 600,

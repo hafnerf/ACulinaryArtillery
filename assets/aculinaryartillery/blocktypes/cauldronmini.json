@@ -192,7 +192,15 @@
 			"z2": 0.875
 		}
 	],
-	"materialDensity": 7870,
+    "materialDensityByType": {
+      "*-copper": 8960,
+      "*-tinbronze": 7600,
+      "*-bismuthbronze": 7900,
+      "*-blackbronze": 9000,
+      "*-iron": 7870,
+      "*-meteoriciron": 7800,
+      "*-steel": 7820
+    },
 	"guiTransform": {
 		"origin": {
 			"x": 0.5,

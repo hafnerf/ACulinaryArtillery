@@ -37,6 +37,7 @@
             }
         }
 	},
+    "materialDensity": 100,
 	"texturesByType": {
 		"*-c-hat": { "seraph": { "base": "game:block/transparent" } },
 		"*-c-hat1": { "seraph": { "base": "game:block/transparent" } },
@@ -70,9 +71,9 @@
 	},
 	"groundTransformByType": {
 		"*": {
-			"translation": { "x": 0.05, "y": -0.3, "z": 0 },
+			"translation": { "x": 0.0, "y": -0.9, "z": 0 },
 			"rotation": { "x": 0, "y": 0, "z": 0 },
-			"scale": 2
+			"scale": 3.5
 		}
 	}
 }

@@ -33,17 +33,8 @@
         "*-tinbronze": 7600,
         "*-bismuthbronze": 7900,
         "*-blackbronze": 9000,
-        "*-iron": 7870,
-        "*-gold": 19300,
-        "*-lead": 11300,
-        "*-tin": 7260,
-        "*-chromium": 7150,
-        "*-platinum": 21500,
         "*-titanium": 4510,
-        "*-zinc": 7140,
-        "*-silver": 10500,
-        "*-bismuth": 9790,
-        "*-molybdochalkos": 9600
+        "*-steel": 7820
     },
 	"fpHandTransform": {
       "translation": { "x": -0.5, "y": 0.4, "z": 0.4 }, "rotation": { "x": 0, "y": -180, "z": -180 },
