@@ -41,6 +41,7 @@
 			},
             "attachableToEntity": {
                 "categoryCode": "gear",
+                "texturePrefixCode": "bottle-glass-{color}-corked",
                 "attachedShapeBySlotCode": {
                     "gearleft": { "base": "aculinaryartillery:item/wearable/hooved/elk/bottleglass1" },
                     "gearback": { "base": "aculinaryartillery:item/wearable/hooved/elk/bottleglass2" },
@@ -91,7 +92,7 @@
 		"x2": 0.65, "y2": 0.375, "z2": 0.65
 	},
 	"textures": {
-		"glass": { "base": "block/bottle/{color}" },
+		"material": { "base": "block/bottle/{color}" },
 		"map": { "base": "game:item/utility/map" }
 	},
 	"resistance": 0.5,

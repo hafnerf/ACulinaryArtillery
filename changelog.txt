@@ -6,13 +6,16 @@
 - Bricklayers integration?
 
 
-
-~1.21_v2.0.0-dev.13~
+~1.21_v2.0.0-dev.14~
 - Mechanized Mixer & Cutting Board partially added; no they don't work yet stop asking me
 - Meat/bottle racks now indicate wood/metal type in item description
 - Dedicated cork/uncork button?
 - Meat racks can have dedicated shapes like elks
+- Clay items now fire differently in pit kiln vs beehive kiln 
+- Bottles fixed so they can get water from source blocks properly 
 
+~1.21_v2.0.0-dev.13~
+- HOTFIX: Bottle UVs and code updated to all use "material" instead of "glass" or "ceramic", should fix crashing
 
 ~1.21_v2.0.0-dev.12~
 - Kitchenware trader spawn tweaked to be slightly more rare
