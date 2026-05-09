@@ -18,7 +18,7 @@
 		}
 	},
 	"variantgroups": [
-		{ "code": "color", "states": ["blue", "fire", "black", "brown", "cream", "gray", "orange", "red", "tan"] },
+		{ "code": "color", "states": ["blue", "earthyorange", "fire", "black", "brown", "cream", "gray", "orange", "red", "tan"] },
 		{ "code": "material", "states": [ "normal", "aged", "whitemarble", "redmarble", "greenmarble" ] }
 	],
 	"creativeinventory": {

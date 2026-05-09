@@ -40,7 +40,7 @@
 			"meltingDuration": 45,
 			"smeltedRatio": 1,
 			"smeltingType": "fire",
-			"smeltedStack": { "type": "block", "code": "spilemold-blue-fired" },
+			"smeltedStack": { "type": "block", "code": "spilemold-earthyorange-fired" },
 			"requiresContainer": false
 		},
 		"spilemold-*-raw": {

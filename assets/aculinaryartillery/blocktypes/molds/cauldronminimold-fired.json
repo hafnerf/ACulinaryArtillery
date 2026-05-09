@@ -4,7 +4,7 @@
 	"behaviors": [{ name: "Lockable" }, { "name": "UnstableFalling" }],
 	entityBehaviors: [{ name: "TemperatureSensitive" }],
 	"variantgroups": [
-		{ "code": "color", "states": ["blue", "fire", "black", "brown", "cream", "gray", "orange", "red", "tan" ] },
+		{ "code": "color", "states": ["blue", "earthyorange", "fire", "black", "brown", "cream", "gray", "orange", "red", "tan" ] },
 		{ "code": "materialtype", "states": ["fired"] }
 	],
 	"attributes": {

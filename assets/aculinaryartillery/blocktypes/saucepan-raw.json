@@ -63,7 +63,7 @@
 			"meltingDuration": 450,
 			"smeltedRatio": 1,
 			"smeltingType": "fire",
-			"smeltedStack": { "type": "block", "code": "aculinaryartillery:saucepan-blue-fired" },
+			"smeltedStack": { "type": "block", "code": "aculinaryartillery:saucepan-earthyorange-fired" },
 			"requiresContainer": false
 		},
 		"*": {

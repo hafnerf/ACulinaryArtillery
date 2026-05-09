@@ -4,7 +4,7 @@
 	"entityClass": "MixingBowl",
 	"behaviors": [ { "name": "Container" }, { "name": "UnstableFalling" } ],
 	"variantgroups": [
-		{ "code": "color", "states": ["blue", "fire", "black", "brown", "cream", "gray", "orange", "red", "tan"] }
+		{ "code": "color", "states": ["blue", "earthyorange", "fire", "black", "brown", "cream", "gray", "orange", "red", "tan"] }
 	],
 	"attributes": {
 		"capacityLitres": 3,
