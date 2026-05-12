@@ -180,7 +180,7 @@
 		"place": "game:block/metaldoor-place",
 		"hit": "game:block/metaldoor-place",
 		"break": "game:block/metaldoor-place",
-		"walk": "game:walk/stone"
+		"walk": "game:walk/stone*"
 	},
 	"collisionSelectionBoxes": [
 		{

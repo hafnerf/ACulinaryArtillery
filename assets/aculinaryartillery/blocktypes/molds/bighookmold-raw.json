@@ -1,6 +1,6 @@
 {
 	"code": "bighookmold",
-	"behaviors": [{ "name": "UnstableFalling" }, { "name": "RightClickPickup" }, {name: "Unplaceable"}, {name: "GroundStorable", "properties": { "layout": "SingleCenter" }}],
+	"behaviors": [{ "name": "UnstableFalling" }, { "name": "RightClickPickup" }, {"name": "Unplaceable"}, {"name": "GroundStorable", "properties": { "layout": "SingleCenter" }}],
 	"variantgroups": [
 		{ "code": "color", "states": ["blue", "fire", "red" ] },
 		{ "code": "materialtype", "states": ["raw"] }
@@ -8,9 +8,9 @@
 	"attributes": {
 		"handbook": { "groupBy": [ "bighookmold-*-raw" ] }
 	},
-	attributesByType:{
+	"attributesByType":{
 		"bighookmold-red-raw":{
-			beehivekiln:{
+			"beehivekiln":{
 				"0": { "type": "block", "code": "aculinaryartillery:bighookmold-tan-fired" },
 				"1": { "type": "block", "code": "aculinaryartillery:bighookmold-orange-fired" },
 				"2": { "type": "block", "code": "aculinaryartillery:bighookmold-red-fired" },
@@ -18,7 +18,7 @@
 			}
 		},
 		"bighookmold-blue-raw":{
-			beehivekiln:{
+			"beehivekiln":{
 				"0": { "type": "block", "code": "aculinaryartillery:bighookmold-cream-fired"},
 				"1": { "type": "block", "code": "aculinaryartillery:bighookmold-gray-fired"},
 				"2": { "type": "block", "code": "aculinaryartillery:bighookmold-black-fired"},
@@ -26,7 +26,7 @@
 			}
 		},
 		"bighookmold-fire-raw":{
-			beehivekiln:{
+			"beehivekiln":{
 				"0": { "type": "block", "code": "aculinaryartillery:bighookmold-fire-fired"},
 				"1": { "type": "block", "code": "aculinaryartillery:bighookmold-fire-fired"},
 				"2": { "type": "block", "code": "aculinaryartillery:bighookmold-fire-fired"},
@@ -64,7 +64,10 @@
 	},
 	"shape": { "base": "block/bighookmold", "rotateY": 90 },
 	"sounds": {
-		"walk": "walk/stone"
+        "walk": "game:walk/stone*",
+        "break": "game:block/ceramicbreak",
+        "hit": "game:block/ceramichit",
+        "place": "game:block/ceramicplace"
 	},
 	"collisionbox": {
 		"x1": 0,
@@ -101,16 +104,16 @@
 		},
 		"scale": 1.33
 	},
-	tpHandTransform: {
-		translation: { x: -1, y: 0.2, z: -0.9 },
-		rotation: { x: -87, y: 9, z: 4 },
-		origin: { x: 0.5, y: 0.125, z: 0.5 },
-		scale: 0.5
+	"tpHandTransform": {
+		"translation": { "x": -1, "y": 0.2, "z": -0.9 },
+		"rotation": { "x": -87, "y": 9, "z": 4 },
+		"origin": { "x": 0.5, "y": 0.125, "z": 0.5 },
+		"scale": 0.5
 	},
-	fpHandTransform: {
-		translation: { x: -0.3, y: 0, z: 0.5 },
-		rotation: { x: 16, y: -51, z: 91 },
-		origin: { x: 0.5, y: 0.125, z: 0.5 }
+	"fpHandTransform": {
+		"translation": { "x": -0.3, "y": 0, "z": 0.5 },
+		"rotation": { "x": 16, "y": -51, "z": 91 },
+		"origin": { "x": 0.5, "y": 0.125, "z": 0.5 }
 	},
 	"groundTransform": {
 		"translation": { "x": 0, "y": 0, "z": 0 },

@@ -8,9 +8,9 @@
 	"attributes": {
 		"handbook": { "groupBy": [ "cauldronminimold-*-raw" ] }
 	},
-	attributesByType:{
+	"attributesByType":{
 		"cauldronminimold-red-raw":{
-			beehivekiln:{
+			"beehivekiln":{
 				"0": { "type": "block", "code": "aculinaryartillery:cauldronminimold-tan-fired" },
 				"1": { "type": "block", "code": "aculinaryartillery:cauldronminimold-orange-fired" },
 				"2": { "type": "block", "code": "aculinaryartillery:cauldronminimold-red-fired" },
@@ -18,7 +18,7 @@
 			}
 		},
 		"cauldronminimold-blue-raw":{
-			beehivekiln:{
+			"beehivekiln":{
 				"0": { "type": "block", "code": "aculinaryartillery:cauldronminimold-cream-fired"},
 				"1": { "type": "block", "code": "aculinaryartillery:cauldronminimold-gray-fired"},
 				"2": { "type": "block", "code": "aculinaryartillery:cauldronminimold-black-fired"},
@@ -26,7 +26,7 @@
 			}
 		},
 		"cauldronminimold-fire-raw":{
-			beehivekiln:{
+			"beehivekiln":{
 				"0": { "type": "block", "code": "aculinaryartillery:cauldronminimold-fire-fired"},
 				"1": { "type": "block", "code": "aculinaryartillery:cauldronminimold-fire-fired"},
 				"2": { "type": "block", "code": "aculinaryartillery:cauldronminimold-fire-fired"},
@@ -58,7 +58,7 @@
 	"resistance": 1.5,
 	"maxStackSize": 8,
 	"lightAbsorption": 0,
-	heldTpIdleAnimation: "holdunderarm",
+	"heldTpIdleAnimation": "holdunderarm",
 	"textures": {
 		"floor": { "base": "game:block/clay/{color}clay" },
 		"ceramic": { "base": "game:block/clay/{color}clay" }
@@ -67,7 +67,10 @@
 		"base": "block/cauldronminimold"
 	},
 	"sounds": {
-		"walk": "walk/stone"
+        "walk": "game:walk/stone*",
+        "break": "game:block/ceramicbreak",
+        "hit": "game:block/ceramichit",
+        "place": "game:block/ceramicplace"
 	},
 	"collisionbox": {
 	"x1": 0.075,
@@ -92,9 +95,9 @@
 		"all": false
 	},
 	"guiTransform": {"scale": 0.9	},
-	tpHandTransform: {
-	translation: { x: -1.5, y: -1.1, z: -1.05 },
-	rotation: { x: 0, y: 0, z: -20 }
+	"tpHandTransform": {
+	"translation": { "x": -1.5, "y": -1.1, "z": -1.05 },
+	"rotation": { "x": 0, "y": 0, "z": -20 }
 	},	
 	"groundTransform": {
 		"origin": { "x": 0.5, "y": 0, "z": 0.5 },

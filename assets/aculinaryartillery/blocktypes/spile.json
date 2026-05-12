@@ -65,12 +65,12 @@
 		"all": false
 	},
 	"resistance": 1.25,
-	"sounds": {
-		"place": "game:block/planks",
-		"hit": "game:block/planks",
-		"break": "game:block/planks",
-		"walk": "game:walk/wood"
-	},
+    "sounds": {
+      "place": "game:block/ingot",
+      "hit": "game:block/ingot",
+      "break": "game:block/ingot",
+      "walk": "game:walk/stone*"
+    },
 	"collisionselectionbox": {
 		"x1": 0.375, "y1": 0, "z1": 0,
 		"x2": 0.625, "y2": 0.5, "z2": 0.3,

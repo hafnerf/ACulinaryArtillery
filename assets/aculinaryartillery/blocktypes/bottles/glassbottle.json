@@ -65,6 +65,12 @@
 			}
 		}
 	},
+    "sounds": {
+      "walk": "game:walk/glass*",
+      "break": "game:block/glass",
+      "hit": "game:block/glass",
+      "place": "game:block/plate"
+    },
 	"drawtype": "JSON",
 	"replaceable": 1,
 	"behaviors": [

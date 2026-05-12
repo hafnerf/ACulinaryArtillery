@@ -85,7 +85,10 @@
     "resistance": 3,
 	"heldTpIdleAnimation": "holdbothhandslarge",
     "sounds": {
-        "walk": "game:player/buildhigh"
+      "place": "game:block/barrel",
+      "hit": "game:block/barrel",
+      "break": "game:block/barrel",
+      "walk": "game:walk/wood*"
     },
     "sideopaque": { "all": false },
     "sideao": { "all": true },

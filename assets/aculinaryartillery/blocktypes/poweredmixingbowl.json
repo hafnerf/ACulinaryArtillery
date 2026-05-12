@@ -95,6 +95,12 @@
 			"ceramic-dark": { "base": "game:block/clay/hardened/{color}" }
 		}
 	},
+    "sounds": {
+      "walk": "game:walk/stone*",
+      "place": "game:block/barrel",
+      "hit": "game:block/barrel",
+      "break": "game:block/barrel"
+    },
 	"sidesolid": {
 		"down": true,
 		"all": false

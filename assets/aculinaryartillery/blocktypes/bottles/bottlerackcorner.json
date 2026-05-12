@@ -83,9 +83,12 @@
   "blockmaterial": "Wood",
   "replaceable": 600,
   "resistance": 3,
-  heldTpIdleAnimation: "holdunderarm",
+  "heldTpIdleAnimation": "holdunderarm",
   "sounds": {
-    "walk": "game:player/buildhigh"
+    "place": "game:block/barrel",
+    "hit": "game:block/barrel",
+    "break": "game:block/barrel",
+    "walk": "game:walk/wood*"
   },
   "sideopaque": { "all": false },
   "sideao": { "all": true },

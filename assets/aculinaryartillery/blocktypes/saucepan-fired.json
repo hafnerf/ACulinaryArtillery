@@ -83,10 +83,10 @@
 	"liquidSelectable": 1,
 	"lightAbsorption": 0,
 	"sounds": {
-		"place": "game:block/planks",
-		"hit": "game:block/planks",
-		"break": "game:block/planks",
-		"walk": "game:walk/wood"
+      "walk": "game:walk/stone*",
+      "break": "game:block/ceramicbreak",
+      "hit": "game:block/ceramichit",
+      "place": "game:block/ceramicplace"
 	},
 	"collisionbox": {
 		"x1": 0,

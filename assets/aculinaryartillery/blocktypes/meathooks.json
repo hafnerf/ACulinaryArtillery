@@ -50,9 +50,12 @@
 	"resistance": 3,
 	"heldTpIdleAnimation": "holdbothhandslarge", 
 	"heldTpUseAnimation": "twohandplaceblock",
-	"sounds": {
-		"walk": "player/buildhigh"
-	},
+    "sounds": {
+      "place": "game:block/planks",
+      "hit": "game:block/planks",
+      "break": "game:block/planks",
+      "walk": "game:walk/wood*"
+    },
 	"collisionSelectionBoxes": [
 		{ "x1": 0.125, "y1": 0.5, "z1": 0.0625, "x2": 0.5, "y2": 1, "z2": 0.5 },
 		{ "x1": 0.5, "y1": 0.5, "z1": 0.0625, "x2": 0.875, "y2": 1, "z2": 0.5 },

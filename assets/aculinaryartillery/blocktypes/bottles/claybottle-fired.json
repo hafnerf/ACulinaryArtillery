@@ -76,6 +76,12 @@
 		"*-corked": { "base": "aculinaryartillery:block/bottle/corkedbottle" },
 		"*": { "base": "aculinaryartillery:block/bottle/openedbottle" }
 	},
+    "sounds": {
+      "walk": "game:walk/stone*",
+      "break": "game:block/ceramicbreak",
+      "hit": "game:block/ceramichit",
+      "place": "game:block/ceramicplace"
+    },
 	"lightAbsorption": 0,
 	"sideopaque": { "all": false },
 	"sideao": { "all": true },

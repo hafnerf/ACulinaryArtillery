@@ -1,15 +1,15 @@
 ﻿{
 	"code": "spilemold",
 	"class": "BlockToolMold",
-	"behaviors": [{ name: "Lockable" }, { "name": "UnstableFalling" }],
-	entityBehaviors: [{ name: "TemperatureSensitive" }],
+	"behaviors": [{ "name": "Lockable" }, { "name": "UnstableFalling" }],
+	"entityBehaviors": [{ "name": "TemperatureSensitive" }],
 	"variantgroups": [
 		{ "code": "color", "states": ["blue", "earthyorange", "fire", "black", "brown", "cream", "gray", "orange", "red", "tan" ] },
 		{ "code": "materialtype", "states": ["fired"] }
 	],
 	"attributes": {
-		reinforcable: true,
-		shatteredShape: { base: "block/clay/mold/shattered-ingot" },
+		"reinforcable": true,
+		"shatteredShape": { "base": "block/clay/mold/shattered-ingot" },
 		"requiredUnits": 100,
 		"fillHeight": 3,
 		"drop": { "type": "block", "code": "aculinaryartillery:spile-{metal}-north", "quantity": 3}
@@ -21,7 +21,7 @@
 	"resistance": 1.5,
 	"maxStackSize": 8,
 	"lightAbsorption": 0,
-	heldTpIdleAnimation: "holdunderarm",
+	"heldTpIdleAnimation": "holdunderarm",
 	"textures": {
 		"floor": { "base": "game:block/clay/hardened/{color}" },
 		"ceramic": { "base": "game:block/clay/hardened/{color}" }
@@ -31,8 +31,11 @@
 		"rotateY": 90
 	},
 	"sounds": {
-		"walk": "walk/stone"
-	},
+        "walk": "game:walk/stone*",
+        "break": "game:block/ceramicbreak",
+        "hit": "game:block/ceramichit",
+        "place": "game:block/ceramicplace"
+    },
 	"collisionbox": {
 		"x1": 0,
 		"y1": 0,
@@ -68,10 +71,10 @@
 		},
 		"scale": 1.33
 	},
-	tpHandTransform: {
-	translation: { x: -1, y: -0.5, z: -1.1 },
-	rotation: { x: -90, y: 0, z: 0 },
-	scale: 0.5
+	"tpHandTransform": {
+	"translation": { "x": -1, "y": -0.5, "z": -1.1 },
+	"rotation": { "x": -90, "y": 0, "z": 0 },
+	"scale": 0.5
 	},
 	"groundTransform": {
 		"translation": { "x": 0, "y": 0, "z": 0 },

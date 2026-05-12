@@ -36,7 +36,7 @@
     "place": "game:block/planks",
     "hit": "game:block/planks",
     "break": "game:block/planks",
-    "walk": "game:walk/wood"
+    "walk": "game:walk/wood*"
   },
   "collisionselectionbox": {
     "x1": 0, "y1": 0, "z1": 0.275,

@@ -32,7 +32,7 @@
 		"ceramic": { "base": "game:block/clay/hardened/{color}" },
 		"burned": { "base": "game:block/clay/hardened/{color}" },
 		"ceramic-dark": { "base": "game:block/clay/hardened/{color}" },
-		"sidesbucket": { "base": "game:block/wood/bucket/sides" },
+		"sidesbucket": { "base": "game:block/wood/bucket/sides" }
 	},
 	"sidesolid": {
 		"all": false
@@ -40,6 +40,12 @@
 	"sideopaque": {
 		"all": false
 	},
+    "sounds": {
+      "walk": "game:walk/stone*",
+      "break": "game:block/ceramicbreak",
+      "hit": "game:block/ceramichit",
+      "place": "game:block/ceramicplace"
+    },
 	"heldTpIdleAnimation": "holdbothhandsmedium", "heldTpUseAnimation": "twohandplaceblock", 
 	"lightAbsorption": 0,
 	"replaceable": 600,
