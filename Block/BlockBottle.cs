@@ -491,29 +491,26 @@ namespace ACulinaryArtillery
 
                 if (contentTextPos == null)
                 {
-                    int textureSubId;
-                    textureSubId = ObjectCacheUtil.GetOrCreate(capi, "contenttexture-" + contentTexture?.ToString() ?? "unknowncontent", () =>
+                    int textureSubId = ObjectCacheUtil.GetOrCreate(capi, "contenttexture-" + contentTexture?.ToString() ?? "unknowncontent", () =>
                     {
-                        var id = 0;
-                        var bmp = capi.Assets.TryGet(contentTexture?.Base.CopyWithPathPrefixAndAppendixOnce("textures/", ".png") ?? new AssetLocation("aculinaryartillery:textures/block/unknown.png"))?.ToBitmap(capi);
-
-                        if (bmp != null)
-                        {
-                            if (contentTexture != null && contentTexture.Alpha != 255)
+                        capi.BlockTextureAtlas.GetOrInsertTexture(
+                            contentTexture.Base.CopyWithPathPrefixAndAppendixOnce("textures/", ".png"),
+                            out var id,
+                            out _,
+                            new CreateTextureDelegate(() =>
                             {
-                                bmp.MulAlpha(contentTexture.Alpha);
-                            }
-
-                            capi.BlockTextureAtlas.InsertTexture(bmp, out id, out var texPos);
-                            bmp.Dispose();
-                        }
+                                var bmp = capi.Assets.TryGet(contentTexture.Base.CopyWithPathPrefixAndAppendixOnce("textures/", ".png"))?.ToBitmap(capi);
+                                if (bmp != null && contentTexture.Alpha != 255) bmp.MulAlpha(contentTexture.Alpha);
+                                return bmp;
+                            })
+                        );
                         return id;
                     });
 
                     contentTextPos = capi.BlockTextureAtlas.Positions[textureSubId];
                 }
 
-                return contentTextPos;
+                return contentTextPos ?? blockTextPos;
             }
         }
         public Size2i AtlasSize => capi.BlockTextureAtlas.Size;
