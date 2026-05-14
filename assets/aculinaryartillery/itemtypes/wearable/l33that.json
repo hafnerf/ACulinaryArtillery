@@ -12,13 +12,9 @@
   "attributes": {
       "warmth": 3,
       "rainProtectionPerc": 1,
-      "displaycaseable": true,
       "wearableAttachment": true,
       "clothescategory": "head",
       "disableElements": ["Ponytail1"],
-      "attachableToEntity": {
-        "categoryCode": "bridle"
-      },
       "attachedShapeBySlotCode": {
         "*-head": {"base":  "entity/humanoid/seraph/clothing/head/c-hat1"}
       },

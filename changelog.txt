@@ -15,6 +15,10 @@
 - Bottles fixed so they can get water from source blocks properly 
 - Block & item sounds updated - DONE!!!
 - Earthy orange clay colors added (thanks pizza2004!) - DONE!!!
+- Trader building better protected, spawning issues fixed - DONE!!!
+- Trader building upgraded
+- ACA clothing can be put on mannequins - DONE!!!
+
 
 ~1.21_v2.0.0-dev.13~
 - HOTFIX: Bottle UVs and code updated to all use "material" instead of "glass" or "ceramic", should fix crashing
