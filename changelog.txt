@@ -5,21 +5,22 @@
 - Bottle racks no longer have weird shadows when multiple are placed
 - Bricklayers integration?
 
-~1.21_v2.0.0-dev.16~
+~1.21_v2.0.0-dev.17~
 - Mechanized Mixer & Cutting Board partially added; no they don't work yet stop asking me
 - Meat/bottle racks now indicate wood/metal type in item description
 - Dedicated cork/uncork button?
 - Meat racks can have dedicated shapes like elks
 - Clay items now fire differently in pit kiln vs beehive kiln 
 - Bottles fixed so they can get water from source blocks properly 
-- Trader building upgraded
+- Trader building fully upgraded
 - Current trader building changed to spawn in temperate climates; desert + cold trader buildings added
-- WHY DOES HONEY NOT WORK IN COOKING POT MEALS ANYMORE???
-- Cooking pot recipes reviewed to see why it's causing incompatibility with Mapper & Dairy Plus
-- Powered mixing bowl no longer 4D - DONE!!!
 
 
 
+~1.21_v2.0.0-dev.16~
+- Powered mixing bowl no longer 4D
+- Nutrition simmering bug actually fixed (thanks to xboxnoob!)
+- Honey should work in cooking pot meals again
 
 ~1.21_v2.0.0-dev.15~
 - Trader building mostly upgraded, spawning actually fixed (dev.14 didn't have my new file, sorry about that!)
