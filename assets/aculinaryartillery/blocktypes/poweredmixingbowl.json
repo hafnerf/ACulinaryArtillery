@@ -2,7 +2,7 @@
 	"code": "poweredmixingbowl",
 	"class": "BlockMixingBowl",
 	"entityClass": "MixingBowl",
-	"entityBehaviors": [ { "name": "MPConsumer" } ],
+	"entityBehaviors": [ { "name": "MPConsumer", "properties": { "resistance": 0.05, "mechPartShape": null }  } ],
 	"behaviors": [ { "name": "Container" } ],
 	"attributes": {
 		"capacityLitres": 3,

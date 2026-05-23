@@ -5,20 +5,31 @@
 - Bottle racks no longer have weird shadows when multiple are placed
 - Bricklayers integration?
 
-
-~1.21_v2.0.0-dev.14~
+~1.21_v2.0.0-dev.16~
 - Mechanized Mixer & Cutting Board partially added; no they don't work yet stop asking me
 - Meat/bottle racks now indicate wood/metal type in item description
 - Dedicated cork/uncork button?
 - Meat racks can have dedicated shapes like elks
 - Clay items now fire differently in pit kiln vs beehive kiln 
 - Bottles fixed so they can get water from source blocks properly 
-- Block & item sounds updated - DONE!!!
-- Earthy orange clay colors added (thanks pizza2004!) - DONE!!!
-- Trader building better protected, spawning issues fixed - DONE!!!
 - Trader building upgraded
-- ACA clothing can be put on mannequins - DONE!!!
+- Current trader building changed to spawn in temperate climates; desert + cold trader buildings added
+- WHY DOES HONEY NOT WORK IN COOKING POT MEALS ANYMORE???
+- Cooking pot recipes reviewed to see why it's causing incompatibility with Mapper & Dairy Plus
+- Powered mixing bowl no longer 4D - DONE!!!
 
+
+
+
+~1.21_v2.0.0-dev.15~
+- Trader building mostly upgraded, spawning actually fixed (dev.14 didn't have my new file, sorry about that!)
+
+~1.21_v2.0.0-dev.14~
+- Bottle crashing actually fixed this time? (thanks to xboxnoob!)
+- Block & item sounds updated
+- Earthy orange clay colors added (thanks pizza2004!)
+- Trader building better protected, spawning issues fixed
+- ACA clothing can be put on mannequins
 
 ~1.21_v2.0.0-dev.13~
 - HOTFIX: Bottle UVs and code updated to all use "material" instead of "glass" or "ceramic", should fix crashing
