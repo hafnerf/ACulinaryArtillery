@@ -143,7 +143,7 @@ namespace ACulinaryArtillery
                         }
                     }
 
-                    prodObj.OnCreatedByKneading(input, product);
+                    prodObj.OnCreatedBySimmering(input, product);
                 }
             }
 
