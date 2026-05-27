@@ -11,7 +11,6 @@
 - Meat/bottle racks now indicate wood/metal type in item description
 - Dedicated cork/uncork button?
 - Meat racks can have dedicated shapes like elks
-- Clay items now fire differently in pit kiln vs beehive kiln 
 - Bottles fixed so they can get water from source blocks properly 
 - Trader building fully upgraded
 - Current trader building changed to spawn in temperate climates; desert + cold trader buildings added
@@ -20,6 +19,7 @@
 - No really the simmering bug is fixed for real this time (thanks to xboxnoob) - DONE!!!
 - Wrong trader building shipped in the previous release (sorry, I've been trying to troubleshoot the furniture spawning issues lol. you will see the issues) - DONE!!!
 - Very aged grid recipes added - DONE!!!
+- Ceramic textures updated to look more 'burned' on the bottom
 
 ~1.21_v2.0.0-dev.16~
 - Powered mixing bowl no longer 4D
