@@ -106,6 +106,38 @@ namespace ACulinaryArtillery
                     string[]? addIngs = (stack.Attributes["madeWith"] as StringArrayAttribute)?.value;
                     float[]? addSat = (stack.Attributes["expandedSats"] as FloatArrayAttribute)?.value;
 
+                    if (addSat?.Length == 6) sat = [.. sat.Zip(addSat, (x, y) => x + (y * (val.Value.Quantity / (stack.Collectible is ItemExpandedLiquid ? 10 : 1))))];
+                    if (addIngs?.Length > 0) ingredients.AddRange(addIngs);
+                }
+                else
+                {
+                    var collObj = val.Key.Itemstack.Collectible;
+                    GetNutrientsFromIngredient(ref sat, collObj, val.Value.Quantity);
+                    ingredients.Add(collObj.Code.Domain + ":" + collObj.Code.Path);
+                }
+            }
+
+            output.Attributes["madeWith"] = new StringArrayAttribute([.. ingredients.Order()]);
+            if (output.Collectible is not ItemExpandedLiquid)
+            {
+                sat = Array.ConvertAll(sat, i => i / output.StackSize);
+                output.Attributes.RemoveAttribute("waterTightContainerProps");
+            }
+            output.Attributes["expandedSats"] = new FloatArrayAttribute([.. sat]);
+        }
+        public void OnCreatedBySimmering(Dictionary<ItemSlot, CraftingRecipeIngredient> input, ItemStack output)
+        {
+            HashSet<string> ingredients = [];
+            float[] sat = new float[6];
+
+            foreach (var val in input)
+            {
+                if (val.Key.Itemstack.Collectible is ItemExpandedRawFood)
+                {
+                    var stack = val.Key.Itemstack;
+                    string[]? addIngs = (stack.Attributes["madeWith"] as StringArrayAttribute)?.value;
+                    float[]? addSat = (stack.Attributes["expandedSats"] as FloatArrayAttribute)?.value;
+
                     if (addSat?.Length == 6) sat = [.. sat.Zip(addSat, (x, y) => x + (y * (stack.StackSize / (stack.Collectible is ItemExpandedLiquid ? 10 : 1))))];
                     if (addIngs?.Length > 0) ingredients.AddRange(addIngs);
                 }
@@ -536,6 +568,7 @@ namespace ACulinaryArtillery
     public interface IExpandedFood
     {
         void OnCreatedByKneading(Dictionary<ItemSlot, CraftingRecipeIngredient> input, ItemStack output);
+        void OnCreatedBySimmering(Dictionary<ItemSlot, CraftingRecipeIngredient> input, ItemStack output);
         void OnCreatedByGrinding(ItemStack input, ItemStack output);
     }
 
