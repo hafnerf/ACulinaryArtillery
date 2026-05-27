@@ -4,8 +4,9 @@
 - Bottles can go into scroll racks?
 - Bottle racks no longer have weird shadows when multiple are placed
 - Bricklayers integration?
+- Place on Slabs integration?
 
-~1.21_v2.0.0-dev.17~
+~1.21_v2.0.0-dev.18~
 - Mechanized Mixer & Cutting Board partially added; no they don't work yet stop asking me
 - Meat/bottle racks now indicate wood/metal type in item description
 - Dedicated cork/uncork button?
@@ -15,7 +16,10 @@
 - Trader building fully upgraded
 - Current trader building changed to spawn in temperate climates; desert + cold trader buildings added
 
-
+~1.21_v2.0.0-dev.17~
+- No really the simmering bug is fixed for real this time (thanks to xboxnoob) - DONE!!!
+- Wrong trader building shipped in the previous release (sorry, I've been trying to troubleshoot the furniture spawning issues lol. you will see the issues) - DONE!!!
+- Very aged grid recipes added - DONE!!!
 
 ~1.21_v2.0.0-dev.16~
 - Powered mixing bowl no longer 4D
