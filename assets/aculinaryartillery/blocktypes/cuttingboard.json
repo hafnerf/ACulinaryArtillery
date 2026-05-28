@@ -8,7 +8,8 @@
   "attributes": {
     "handbook": {
       "extraSections": [ { "title": "aculinaryartillery:block-handbooktitle-cuttingboard", "text": "aculinaryartillery:block-handbooktext-cuttingboard" }]
-    }
+    },
+    "shelvable": "SingleCenter"
   },
   "texture": { "base": "game:block/metal/ingot/{metal}" },
   "creativeinventory": { "general": ["*"], "decorative": ["*"], "aculinaryartillery": ["*"] },

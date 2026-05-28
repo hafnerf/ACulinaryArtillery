@@ -18,8 +18,9 @@
 				}
 			},
 			"useFirepitModel": "Wide"
-		}
-	},
+		},
+      "shelvable": "SingleCenter"
+    },
 	"attributesByType":{
 		"saucepan-red-raw":{
 			"beehivekiln":{

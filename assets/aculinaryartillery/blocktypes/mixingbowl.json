@@ -17,8 +17,9 @@
                     "text": "aculinaryartillery:block-handbooktext-mixingbowl"
                 }
             ]
-        }
-	},
+        },
+        "shelvable": "SingleCenter"
+    },
 	"creativeinventory": {
 		"general": [ "*" ],
 		"terrain": [ "*" ],

@@ -14,8 +14,9 @@
 		"moldrackable": true,
 		"onmoldrackTransform": { "rotation": { "z": 90 } },
 		"fillHeight": 1,
-		"drop": { "type": "item", "code": "aculinaryartillery:bighook-{metal}", "quantity": 8 }
-	},
+		"drop": { "type": "item", "code": "aculinaryartillery:bighook-{metal}", "quantity": 8 },
+        "shelvable": "SingleCenter"
+    },
 	"entityClass": "ToolMold",
 	"blockmaterial": "Ceramic",
 	"creativeinventory": { "general": ["*"], "construction": ["*"], "aculinaryartillery": ["*"] },

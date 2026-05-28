@@ -22,11 +22,17 @@
             }
           ]
         },
+        "shelvable": true,
 		"groundStorageTransform": {
 			"translation": { "x": -0.175, "y": -0.4, "z": 0.375 },
 			"rotation": { "x": 0, "y": 0, "z": 90 },
 			"scale": 0.8
-		}
+		},
+        "onDisplayTransform": {
+            "translation": { "x": -0.175, "y": -0.4125, "z": 0.325 },
+            "rotation": { "x": 0, "y": 0, "z": 90 },
+            "scale": 0.7
+        }
 	},
 	"entityclass": "Spile",
 	"class": "BlockSpile",
@@ -91,12 +97,9 @@
 		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
 		"scale": 1.5
 	},
-	"fpHandTransform": {
-		"translation": { "x": 0, "y": 0.06, "z": 0.5 }
-	},
 	"guiTransform": {
 		"rotation": { "x": 0, "y": -125, "z": 0 },
 		"origin": { "x": 0.5, "y": 0.3, "z": 0 },
 		"scale": 2
-	},
+	}
 }

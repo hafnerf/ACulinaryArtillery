@@ -57,11 +57,7 @@
 			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
 			"scale": 0.8
 		},
-		"shelvable": true,
-		"onDisplayTransform": {
-			"translation": { "x": 0, "y": -0.15, "z": 0 },
-			"scale": 0.7
-		},
+		"shelvable": "SingleCenter",
 	},
 	"variantgroups": [
 		{ "code": "color", "states": ["blue", "earthyorange", "fire", "black", "brown", "cream", "gray", "orange", "red", "tan"] },

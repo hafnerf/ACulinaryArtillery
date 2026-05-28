@@ -6,8 +6,9 @@
 		{ "code": "materialtype", "states": ["raw"] }
 	],
 	"attributes": {
-		"handbook": { "groupBy": [ "cauldronmold-*-raw" ] }
-	},
+		"handbook": { "groupBy": [ "cauldronmold-*-raw" ] },
+        "shelvable": "SingleCenter"
+    },
 	"attributesByType":{
 		"cauldronmold-red-raw":{
 			"beehivekiln":{

@@ -12,8 +12,9 @@
 		"shatteredShape": { "base": "block/clay/mold/shattered-ingot" },
 		"requiredUnits": 100,
 		"fillHeight": 3,
-		"drop": { "type": "block", "code": "aculinaryartillery:spile-{metal}-north", "quantity": 3}
-	},
+		"drop": { "type": "block", "code": "aculinaryartillery:spile-{metal}-north", "quantity": 3},
+        "shelvable": "SingleCenter"
+    },
 	"entityClass": "ToolMold",
 	"blockmaterial": "Ceramic",
 	"creativeinventory": { "general": ["*"], "construction": ["*"], "aculinaryartillery": ["*"] },

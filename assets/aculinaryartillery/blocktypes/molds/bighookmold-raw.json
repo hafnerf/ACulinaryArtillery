@@ -6,8 +6,9 @@
 		{ "code": "materialtype", "states": ["raw"] }
 	],
 	"attributes": {
-		"handbook": { "groupBy": [ "bighookmold-*-raw" ] }
-	},
+		"handbook": { "groupBy": [ "bighookmold-*-raw" ] },
+        "shelvable": "SingleCenter"
+    },
 	"attributesByType":{
 		"bighookmold-red-raw":{
 			"beehivekiln":{
