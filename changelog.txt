@@ -15,10 +15,11 @@
 - Trader building fully upgraded
 - Current trader building changed to spawn in temperate climates; desert + cold trader buildings added
 
+
 ~1.21_v2.0.0-dev.17~
-- No really the simmering bug is fixed for real this time (thanks to xboxnoob) - DONE!!!
-- Wrong trader building shipped in the previous release (sorry, I've been trying to troubleshoot the furniture spawning issues lol. you will see the issues) - DONE!!!
-- Very aged grid recipes added - DONE!!!
+- No really the simmering bug is fixed for real this time (thanks to xboxnoob)
+- Wrong trader building shipped in the previous release (sorry, I've been trying to troubleshoot the furniture spawning issues lol. you will see the issues)
+- Very aged grid recipes added
 - Ceramic textures updated to look more 'burned' on the bottom
 
 ~1.21_v2.0.0-dev.16~

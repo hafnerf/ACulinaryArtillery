@@ -29,9 +29,9 @@
 	"textures": {
 		"material": { "base": "game:block/wood/planks/generic" },
 		"generic": { "base": "game:block/wood/planks/generic" },
-		"ceramic": { "base": "game:block/clay/hardened/{color}" },
-		"burned": { "base": "game:block/clay/hardened/{color}" },
-		"ceramic-dark": { "base": "game:block/clay/hardened/{color}" },
+        "ceramic": { "base": "game:block/clay/hardened/{color}" },
+        "burned": { "base": "game:block/clay/hardened/{color}", "overlays": ["game:block/clay/overlay/pot"] },
+        "ceramic-dark": { "base": "game:block/clay/hardened/{color}", "overlays": ["game:block/clay/overlay/dark"] },
 		"sidesbucket": { "base": "game:block/wood/bucket/sides" }
 	},
 	"sidesolid": {

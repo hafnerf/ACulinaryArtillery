@@ -75,8 +75,8 @@
 	"heldTpIdleAnimation": "holdbothhandsmedium", "heldTpUseAnimation": "twohandplaceblock", 
 	"textures": {
 		"ceramic": { "base": "game:block/clay/hardened/{color}" },
-		"burned": { "base": "game:block/clay/hardened/{color}" },
-		"ceramic-dark": { "base": "game:block/clay/hardened/{color}" }
+		"burned": { "base": "game:block/clay/hardened/{color}","overlays": ["game:block/clay/overlay/pot"] },
+		"ceramic-dark": { "base": "game:block/clay/hardened/{color}","overlays": ["game:block/clay/overlay/dark"] }
 	},
 	"replaceable": 500,
 	"resistance": 1.5,

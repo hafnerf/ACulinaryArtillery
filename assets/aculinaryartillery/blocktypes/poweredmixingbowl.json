@@ -38,10 +38,10 @@
 			"sidesbarrel": { "base": "game:block/wood/barrel/sides" },
 			"churnsides2": { "base": "game:block/wood/churnsides2" },
 			"sidesbucket": { "base": "game:block/wood/bucket/sides" },
-			"ceramic": { "base": "game:block/clay/hardened/{color}" },
-			"burned": { "base": "game:block/clay/hardened/{color}" },
-			"ceramic-dark": { "base": "game:block/clay/hardened/{color}" }
-		},
+            "ceramic": { "base": "game:block/clay/hardened/{color}" },
+            "burned": { "base": "game:block/clay/hardened/{color}", "overlays": ["game:block/clay/overlay/pot"] },
+            "ceramic-dark": { "base": "game:block/clay/hardened/{color}", "overlays": ["game:block/clay/overlay/dark"] }
+        },
 		"*-redmarble": {
 			"top": { "base": "game:block/stone/polishedrock/redmarble-inside" },
 			"sides": { "base": "game:block/wood/table/normal/sides-redmarble" },
@@ -51,10 +51,10 @@
 			"sidesbarrel": { "base": "game:block/wood/barrel/sides" },
 			"churnsides2": { "base": "game:block/wood/churnsides2" },
 			"sidesbucket": { "base": "game:block/wood/bucket/sides" },
-			"ceramic": { "base": "game:block/clay/hardened/{color}" },
-			"burned": { "base": "game:block/clay/hardened/{color}" },
-			"ceramic-dark": { "base": "game:block/clay/hardened/{color}" }
-		},
+            "ceramic": { "base": "game:block/clay/hardened/{color}" },
+            "burned": { "base": "game:block/clay/hardened/{color}", "overlays": ["game:block/clay/overlay/pot"] },
+            "ceramic-dark": { "base": "game:block/clay/hardened/{color}", "overlays": ["game:block/clay/overlay/dark"] }
+        },
 		"*-greenmarble": {
 			"top": { "base": "game:block/stone/polishedrock/greenmarble-inside" },
 			"sides": { "base": "game:block/wood/table/normal/sides-greenmarble" },
@@ -64,10 +64,10 @@
 			"sidesbarrel": { "base": "game:block/wood/barrel/sides" },
 			"churnsides2": { "base": "game:block/wood/churnsides2" },
 			"sidesbucket": { "base": "game:block/wood/bucket/sides" },
-			"ceramic": { "base": "game:block/clay/hardened/{color}" },
-			"burned": { "base": "game:block/clay/hardened/{color}" },
-			"ceramic-dark": { "base": "game:block/clay/hardened/{color}" }
-		},
+            "ceramic": { "base": "game:block/clay/hardened/{color}" },
+            "burned": { "base": "game:block/clay/hardened/{color}", "overlays": ["game:block/clay/overlay/pot"] },
+            "ceramic-dark": { "base": "game:block/clay/hardened/{color}", "overlays": ["game:block/clay/overlay/dark"] }
+        },
 		"*-aged": {
 			"top": { "base": "game:block/wood/table/aged/top" },
 			"sides": { "base": "game:block/wood/table/aged/sides" },
@@ -77,10 +77,10 @@
 			"sidesbarrel": { "base": "game:block/wood/barrel/sides" },
 			"churnsides2": { "base": "game:block/wood/churnsides2" },
 			"sidesbucket": { "base": "game:block/wood/bucket/sides" },
-			"ceramic": { "base": "game:block/clay/hardened/{color}" },
-			"burned": { "base": "game:block/clay/hardened/{color}" },
-			"ceramic-dark": { "base": "game:block/clay/hardened/{color}" }
-		},
+            "ceramic": { "base": "game:block/clay/hardened/{color}" },
+            "burned": { "base": "game:block/clay/hardened/{color}", "overlays": ["game:block/clay/overlay/pot"] },
+            "ceramic-dark": { "base": "game:block/clay/hardened/{color}", "overlays": ["game:block/clay/overlay/dark"] }
+        },
 		"*-normal": {
 			"top": { "base": "game:block/wood/table/normal/top" },
 			"sides": { "base": "game:block/wood/table/normal/sides" },
@@ -90,10 +90,10 @@
 			"sidesbarrel": { "base": "game:block/wood/barrel/sides" },
 			"churnsides2": { "base": "game:block/wood/churnsides2" },
 			"sidesbucket": { "base": "game:block/wood/bucket/sides" },
-			"ceramic": { "base": "game:block/clay/hardened/{color}" },
-			"burned": { "base": "game:block/clay/hardened/{color}" },
-			"ceramic-dark": { "base": "game:block/clay/hardened/{color}" }
-		}
+            "ceramic": { "base": "game:block/clay/hardened/{color}" },
+            "burned": { "base": "game:block/clay/hardened/{color}", "overlays": ["game:block/clay/overlay/pot"] },
+            "ceramic-dark": { "base": "game:block/clay/hardened/{color}", "overlays": ["game:block/clay/overlay/dark"] }
+        }
 	},
     "sounds": {
       "walk": "game:walk/stone*",
