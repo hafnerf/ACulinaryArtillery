@@ -15,7 +15,7 @@
 ~1.21_v2.0.0-dev.18~
 - Saucepans and mini-cauldrons can only fit onto shelves one at a time - DONE!!!
 - Tool molds, spiles and the mixing bowl can now go onto shelves - DONE!!!
-- Ceramic textures also updated on the elk
+- Ceramic textures also updated on the elk - DONE!!!
 
 ~1.21_v2.0.0-dev.17~
 - No really the simmering bug is fixed for real this time (thanks to xboxnoob)
