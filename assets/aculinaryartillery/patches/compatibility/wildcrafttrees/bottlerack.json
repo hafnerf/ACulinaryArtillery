@@ -4,7 +4,7 @@
     "path": "/variantgroups/0/states/-",
     "value": [ "douglasfir", "willow", "honeylocust", "bearnut", "poplar", "catalpa", "mahogany", "sal", "saxaul", "spruce", "sycamore", "elm", "beech", "eucalyptus", "cedar", "tuja", "redcedar", "yew", "kauri", "ginkgo", "dalbergia", "umnini", "banyan", "guajacum", "ghostgum", "ohia", "satinash", "bluemahoe", "jacaranda", "empresstree", "chlorociboria", "petrified", "fir", "tamanu", "spurgetree", "azobe", "leadwood", "linden", "horsechestnut", "tigerwood", "sapele", "ash", "mangrove", "charred" ],
     "side": "server",
-    "file": "aculinaryartillery:blocktypes/bottlerack.json",
+    "file": "aculinaryartillery:blocktypes/bottles/bottlerack.json",
     dependsOn: [{ "modid": "wildcrafttree" }]
   },
   {
@@ -12,7 +12,7 @@
     "path": "/variantgroups/1/states/-",
     "value": [ "douglasfir", "willow", "honeylocust", "bearnut", "poplar", "catalpa", "mahogany", "sal", "saxaul", "spruce", "sycamore", "elm", "beech", "eucalyptus", "cedar", "tuja", "redcedar", "yew", "kauri", "ginkgo", "dalbergia", "umnini", "banyan", "guajacum", "ghostgum", "ohia", "satinash", "bluemahoe", "jacaranda", "empresstree", "chlorociboria", "petrified", "fir", "tamanu", "spurgetree", "azobe", "leadwood", "linden", "horsechestnut", "tigerwood", "sapele", "ash", "mangrove", "charred" ],
     "side": "server",
-    "file": "aculinaryartillery:blocktypes/bottlerack.json",
+    "file": "aculinaryartillery:blocktypes/bottles/bottlerack.json",
     dependsOn: [{ "modid": "wildcrafttree" }]
   },
  {
